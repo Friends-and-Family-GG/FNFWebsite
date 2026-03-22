@@ -157,6 +157,51 @@ body {
 }
 
 /* ===========================
+   HERO MEMBER PHOTOS
+=========================== */
+.member-photos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  width: 100%;
+}
+
+.member-photos-heading {
+  font-family: 'Arial Black', 'Franklin Gothic Heavy', sans-serif;
+  font-size: clamp(1rem, 2.2vw, 1.4rem);
+  font-weight: 900;
+  color: var(--green);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+.member-photos-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(1rem, 3vw, 2rem);
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.member-photo {
+  width: clamp(160px, 28%, 280px);
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 2px solid rgba(114,200,169,0.25);
+  box-shadow: 0 6px 30px rgba(0,0,0,0.45);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.member-photo:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 12px 40px rgba(114,200,169,0.25);
+}
+
+/* ===========================
    VIDEO SECTION
 =========================== */
 .video-section {
