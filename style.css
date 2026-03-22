@@ -188,7 +188,7 @@ body {
 }
 
 .member-photo {
-  width: clamp(100px, 18%, 180px);
+  width: clamp(180px, 28%, 340px);
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 10px;
