@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - claude/init-github-repo-IsBtr
   workflow_dispatch:
 
 permissions:
