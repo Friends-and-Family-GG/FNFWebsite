@@ -179,21 +179,23 @@ body {
 
 .member-photos-row {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: clamp(1rem, 3vw, 2rem);
+  gap: clamp(0.8rem, 2vw, 1.5rem);
   width: 100%;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .member-photo {
-  width: clamp(160px, 28%, 280px);
+  width: clamp(100px, 18%, 180px);
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 10px;
   border: 2px solid rgba(114,200,169,0.25);
   box-shadow: 0 6px 30px rgba(0,0,0,0.45);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  flex-shrink: 0;
 }
 
 .member-photo:hover {
