@@ -12,23 +12,149 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <main>
-    <div class="wordmark">
-      <span class="word">FRIENDS</span>
-      <svg class="bolt" viewBox="0 0 60 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <polygon points="35,0 10,48 28,48 18,90 52,34 32,34" />
-      </svg>
-      <span class="word">FAMILY</span>
-    </div>
 
-    <ul class="description">
-      <li>#1 in Pokemon Cards, One Piece &amp; MTG</li>
-      <li>#1 TCG Community providing all sources for the latest Pok&eacute;mon, Magic, One Piece and more at retail prices!</li>
-      <li>We provide early links, monitors and early info for Walmart, Target, Pokemon Center, BestBuy, Walgreens, Sam&rsquo;s Club, Costco and more!</li>
-      <li>Free ACO where our team will checkout for you on Pok&eacute;mon &amp; One Piece from the hottest retail drops!</li>
-      <li>Live voice calls where our team answers questions &amp; discusses strategies for buying the latest TCG&rsquo;s</li>
-      <li>Entrepreneurial experience where the sky is the limit for collectors, sellers, and investors!</li>
-    </ul>
-  </main>
+  <!-- ===== HERO BANNER ===== -->
+  <section class="hero">
+    <!-- Background decorative SVG blobs -->
+    <svg class="hero-blob hero-blob--tl" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <ellipse cx="300" cy="300" rx="300" ry="260" fill="#72c8a9" opacity="0.08"/>
+    </svg>
+    <svg class="hero-blob hero-blob--br" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <ellipse cx="300" cy="300" rx="280" ry="300" fill="#72c8a9" opacity="0.06"/>
+    </svg>
+
+    <div class="hero-inner">
+      <!-- Wordmark -->
+      <div class="wordmark">
+        <span class="word">FRIENDS</span>
+        <svg class="bolt" viewBox="0 0 60 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <polygon points="35,0 10,48 28,48 18,90 52,34 32,34" />
+        </svg>
+        <span class="word">FAMILY</span>
+      </div>
+
+      <!-- Headline -->
+      <h1 class="hero-headline">
+        #1 Discord Community for Pokémon Cards, Sports Cards, Vinyl, Lowkey Flips, Legos &amp; more
+      </h1>
+
+      <!-- Sub-copy -->
+      <p class="hero-sub">
+        Our community supports resellers, collectors and investors in securing the hottest products online.
+        Our team delivers opportunities on a day-to-day basis to ensure each member's success.
+      </p>
+
+      <!-- CTA Button -->
+      <a class="cta-btn" href="https://tinyurl.com/tcgfree5" target="_blank" rel="noopener noreferrer">
+        <!-- Left sparkle SVG -->
+        <svg class="btn-svg btn-svg--left" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M12 2 L13.5 9 L20 8 L14.5 13 L17 20 L12 16 L7 20 L9.5 13 L4 8 L10.5 9 Z"/>
+        </svg>
+        <span>Free Trial</span>
+        <!-- Right arrow SVG -->
+        <svg class="btn-svg btn-svg--right" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M5 12 H19 M13 6 L19 12 L13 18" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== VIDEO SECTION ===== -->
+  <section class="video-section">
+    <div class="video-wrapper">
+      <div class="video-placeholder">
+        <svg class="play-icon" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="40" cy="40" r="38" fill="rgba(114,200,169,0.15)" stroke="#72c8a9" stroke-width="2"/>
+          <polygon points="32,22 32,58 62,40" fill="#72c8a9"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS STRIP ===== -->
+  <section class="stats-strip">
+    <div class="stats-inner">
+      <div class="stat">
+        <span class="stat-number">2,000+</span>
+        <span class="stat-label">Members</span>
+      </div>
+      <div class="stat-divider" aria-hidden="true"></div>
+      <div class="stat">
+        <span class="stat-number">40+</span>
+        <span class="stat-label">Expert Staff</span>
+      </div>
+      <div class="stat-divider" aria-hidden="true"></div>
+      <div class="stat">
+        <span class="stat-number">$5M+</span>
+        <span class="stat-label">in profitable flips since 2020</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MEMBER SUCCESS CAROUSEL ===== -->
+  <section class="member-success">
+    <h2 class="section-title">Member Success</h2>
+    <div class="carousel" role="region" aria-label="Member success stories">
+      <div class="carousel-track">
+        <div class="carousel-slide active">
+          <img src="t1.png" alt="Member success story 1" />
+        </div>
+        <div class="carousel-slide">
+          <img src="t2.png" alt="Member success story 2" />
+        </div>
+        <div class="carousel-slide">
+          <img src="t3.png" alt="Member success story 3" />
+        </div>
+        <div class="carousel-slide">
+          <img src="t4.png" alt="Member success story 4" />
+        </div>
+        <div class="carousel-slide">
+          <img src="t5.png" alt="Member success story 5" />
+        </div>
+      </div>
+      <!-- Dot indicators -->
+      <div class="carousel-dots" aria-hidden="true">
+        <button class="dot active" data-index="0"></button>
+        <button class="dot" data-index="1"></button>
+        <button class="dot" data-index="2"></button>
+        <button class="dot" data-index="3"></button>
+        <button class="dot" data-index="4"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <p>&copy; 2024 Friends &amp; Family &mdash; fnf.community</p>
+  </footer>
+
+  <script>
+    (function () {
+      const slides = document.querySelectorAll('.carousel-slide');
+      const dots   = document.querySelectorAll('.dot');
+      let current  = 0;
+
+      function goTo(idx) {
+        slides[current].classList.remove('active');
+        dots[current].classList.remove('active');
+        current = (idx + slides.length) % slides.length;
+        slides[current].classList.add('active');
+        dots[current].classList.add('active');
+      }
+
+      // Auto-advance every 1.5 s
+      let timer = setInterval(() => goTo(current + 1), 1500);
+
+      // Dot click
+      dots.forEach(dot => {
+        dot.addEventListener('click', () => {
+          clearInterval(timer);
+          goTo(Number(dot.dataset.index));
+          timer = setInterval(() => goTo(current + 1), 1500);
+        });
+      });
+    })();
+  </script>
+
 </body>
 </html>
