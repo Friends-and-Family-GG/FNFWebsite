@@ -188,9 +188,9 @@ body {
 }
 
 .member-photo {
-  width: clamp(280px, 60%, 560px);
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
+  width: clamp(360px, 85%, 860px);
+  height: auto;
+  object-fit: unset;
   border-radius: 10px;
   border: 2px solid rgba(114,200,169,0.25);
   box-shadow: 0 6px 30px rgba(0,0,0,0.45);
