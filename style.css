@@ -213,6 +213,13 @@ body {
   justify-content: center;
 }
 
+.hero-video-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
 .video-wrapper {
   width: 100%;
   max-width: 860px;
