@@ -3,15 +3,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Friends &amp; Family</title>
-  <meta name="description" content="Friends &amp; Family — fnf.community" />
-  <link rel="canonical" href="https://fnf.community/" />
-  <meta property="og:title" content="Friends &amp; Family" />
-  <meta property="og:url" content="https://fnf.community/" />
+  <title>Friends &amp; Family — Reselling Community</title>
+  <meta name="description" content="The #1 Discord community for reselling — Pokémon cards, sports cards, vinyl, lowkey flips, Legos &amp; more. resell.ing" />
+  <link rel="canonical" href="https://resell.ing/" />
+  <meta property="og:title" content="Friends &amp; Family — Reselling Community" />
+  <meta property="og:url" content="https://resell.ing/" />
   <meta property="og:type" content="website" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+  <!-- ===== NAV ===== -->
+  <nav class="site-nav">
+    <a class="nav-brand" href="index.html">
+      <span class="nav-brand-word">FNF</span>
+      <svg class="nav-bolt" viewBox="0 0 60 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <polygon points="35,0 10,48 28,48 18,90 52,34 32,34" />
+      </svg>
+    </a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="pricing.html" class="nav-link">Pricing</a>
+      <a class="nav-cta" href="https://tinyurl.com/tcgfree5" target="_blank" rel="noopener noreferrer">Free Trial</a>
+    </div>
+  </nav>
 
   <!-- ===== HERO BANNER ===== -->
   <section class="hero">
@@ -38,6 +53,18 @@
         #1 Discord Community for Pokémon Cards, Sports Cards, Vinyl, Lowkey Flips, Legos &amp; more
       </h1>
 
+      <!-- Video -->
+      <div class="hero-video-wrapper">
+        <div class="video-wrapper">
+          <div class="video-placeholder">
+            <svg class="play-icon" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="40" cy="40" r="38" fill="rgba(114,200,169,0.15)" stroke="#72c8a9" stroke-width="2"/>
+              <polygon points="32,22 32,58 62,40" fill="#72c8a9"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+
       <!-- Sub-copy -->
       <p class="hero-sub">
         Our community supports resellers, collectors and investors in securing the hottest products online.
@@ -46,28 +73,14 @@
 
       <!-- CTA Button -->
       <a class="cta-btn" href="https://tinyurl.com/tcgfree5" target="_blank" rel="noopener noreferrer">
-        <!-- Left sparkle SVG -->
         <svg class="btn-svg btn-svg--left" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <path d="M12 2 L13.5 9 L20 8 L14.5 13 L17 20 L12 16 L7 20 L9.5 13 L4 8 L10.5 9 Z"/>
         </svg>
-        <span>Free Trial</span>
-        <!-- Right arrow SVG -->
+        <span>Start Free Trial</span>
         <svg class="btn-svg btn-svg--right" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <path d="M5 12 H19 M13 6 L19 12 L13 18" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </a>
-    </div>
-  </section>
-
-  <!-- ===== VIDEO SECTION ===== -->
-  <section class="video-section">
-    <div class="video-wrapper">
-      <div class="video-placeholder">
-        <svg class="play-icon" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <circle cx="40" cy="40" r="38" fill="rgba(114,200,169,0.15)" stroke="#72c8a9" stroke-width="2"/>
-          <polygon points="32,22 32,58 62,40" fill="#72c8a9"/>
-        </svg>
-      </div>
     </div>
   </section>
 
@@ -91,70 +104,127 @@
     </div>
   </section>
 
-  <!-- ===== MEMBER SUCCESS CAROUSEL ===== -->
-  <section class="member-success">
-    <h2 class="section-title">Member Success</h2>
-    <div class="carousel" role="region" aria-label="Member success stories">
-      <div class="carousel-track">
-        <div class="carousel-slide active">
-          <img src="t1.png" alt="Member success story 1" />
-        </div>
-        <div class="carousel-slide">
-          <img src="t2.png" alt="Member success story 2" />
-        </div>
-        <div class="carousel-slide">
-          <img src="t3.png" alt="Member success story 3" />
-        </div>
-        <div class="carousel-slide">
-          <img src="t4.png" alt="Member success story 4" />
-        </div>
-        <div class="carousel-slide">
-          <img src="t5.png" alt="Member success story 5" />
-        </div>
+  <!-- ===== WHAT YOU GET ===== -->
+  <section class="features">
+    <h2 class="section-title">What You Get</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon" aria-hidden="true">🔔</div>
+        <h3>Daily Flip Alerts</h3>
+        <p>Real-time pings the moment a profitable flip drops — cards, vinyl, Legos and more.</p>
       </div>
-      <!-- Dot indicators -->
-      <div class="carousel-dots" aria-hidden="true">
-        <button class="dot active" data-index="0"></button>
-        <button class="dot" data-index="1"></button>
-        <button class="dot" data-index="2"></button>
-        <button class="dot" data-index="3"></button>
-        <button class="dot" data-index="4"></button>
+      <div class="feature-card">
+        <div class="feature-icon" aria-hidden="true">📦</div>
+        <h3>Restock Notifications</h3>
+        <p>Know the second hot products come back in stock at major retailers.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon" aria-hidden="true">🤝</div>
+        <h3>1-on-1 Support</h3>
+        <p>40+ expert staff ready to answer questions and walk you through your first flips.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon" aria-hidden="true">📈</div>
+        <h3>Investment Guides</h3>
+        <p>Long-term plays on sealed product and graded cards, backed by market data.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon" aria-hidden="true">🎙️</div>
+        <h3>Live Q&amp;As</h3>
+        <p>Weekly voice sessions with top resellers sharing exactly what's working now.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon" aria-hidden="true">🔒</div>
+        <h3>Private Channels</h3>
+        <p>Members-only leads and strategies you won't find anywhere public.</p>
       </div>
     </div>
   </section>
 
+  <!-- ===== MEMBER SUCCESS ===== -->
+  <section class="member-success">
+    <h2 class="section-title">Member Success</h2>
+    <p class="section-sub">Real wins from real members — posted in our Discord every single day.</p>
+    <div class="success-grid">
+      <figure class="success-item">
+        <img src="m1.jpg" alt="Member success — profitable flip" loading="lazy" />
+      </figure>
+      <figure class="success-item">
+        <img src="m2.jpg" alt="Member success — profitable flip" loading="lazy" />
+      </figure>
+      <figure class="success-item">
+        <img src="m5.png" alt="Member success — profitable flip" loading="lazy" />
+      </figure>
+    </div>
+    <div class="section-cta">
+      <a class="cta-btn" href="https://tinyurl.com/tcgfree5" target="_blank" rel="noopener noreferrer">
+        <span>Join Them — Free Trial</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== HOW IT WORKS ===== -->
+  <section class="how-it-works">
+    <h2 class="section-title">How It Works</h2>
+    <div class="steps">
+      <div class="step">
+        <span class="step-number">1</span>
+        <h3>Join the Discord</h3>
+        <p>Start your free trial and get instant access to every channel.</p>
+      </div>
+      <div class="step-arrow" aria-hidden="true">→</div>
+      <div class="step">
+        <span class="step-number">2</span>
+        <h3>Follow the Alerts</h3>
+        <p>Our team posts flips daily — just follow the play-by-play.</p>
+      </div>
+      <div class="step-arrow" aria-hidden="true">→</div>
+      <div class="step">
+        <span class="step-number">3</span>
+        <h3>Cash Out</h3>
+        <p>Sell for profit and post your win in the success channel.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials">
+    <h2 class="section-title">What Members Say</h2>
+    <div class="testimonial-grid">
+      <blockquote class="testimonial">
+        <p>"Paid off my membership in the first week with one flip. The alerts alone are worth it."</p>
+        <footer>— Community Member</footer>
+      </blockquote>
+      <blockquote class="testimonial">
+        <p>"I knew nothing about reselling when I joined. The staff walked me through everything."</p>
+        <footer>— Community Member</footer>
+      </blockquote>
+      <blockquote class="testimonial">
+        <p>"Best community I've been in. Real people, real wins, posted every day."</p>
+        <footer>— Community Member</footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ===== FINAL CTA ===== -->
+  <section class="final-cta">
+    <h2>Ready to Start Flipping?</h2>
+    <p>Join 2,000+ members securing the hottest products online.</p>
+    <a class="cta-btn cta-btn--large" href="https://tinyurl.com/tcgfree5" target="_blank" rel="noopener noreferrer">
+      <span>Start Your Free Trial</span>
+    </a>
+    <p class="urgency-note">Limited spots available</p>
+  </section>
+
   <!-- ===== FOOTER ===== -->
   <footer class="site-footer">
-    <p>&copy; 2024 Friends &amp; Family &mdash; fnf.community</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="https://tinyurl.com/tcgfree5" target="_blank" rel="noopener noreferrer">Free Trial</a>
+    </div>
+    <p>&copy; 2026 Friends &amp; Family &mdash; resell.ing</p>
   </footer>
-
-  <script>
-    (function () {
-      const slides = document.querySelectorAll('.carousel-slide');
-      const dots   = document.querySelectorAll('.dot');
-      let current  = 0;
-
-      function goTo(idx) {
-        slides[current].classList.remove('active');
-        dots[current].classList.remove('active');
-        current = (idx + slides.length) % slides.length;
-        slides[current].classList.add('active');
-        dots[current].classList.add('active');
-      }
-
-      // Auto-advance every 1.5 s
-      let timer = setInterval(() => goTo(current + 1), 1500);
-
-      // Dot click
-      dots.forEach(dot => {
-        dot.addEventListener('click', () => {
-          clearInterval(timer);
-          goTo(Number(dot.dataset.index));
-          timer = setInterval(() => goTo(current + 1), 1500);
-        });
-      });
-    })();
-  </script>
 
 </body>
 </html>
