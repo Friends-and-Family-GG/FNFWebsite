@@ -260,21 +260,13 @@ body {
   box-shadow: 0 0 60px rgba(0,0,0,0.5);
 }
 
-.video-placeholder {
+.video-embed {
   width: 100%;
   aspect-ratio: 16 / 9;
-  background: linear-gradient(135deg, #111 0%, #1a2820 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
+  border: 0;
+  background: #111;
 }
-
-.play-icon {
-  width: clamp(60px, 10vw, 100px);
-  cursor: pointer;
-  transition: transform 0.2s ease;
-}
-.play-icon:hover { transform: scale(1.08); }
 
 /* ===========================
    STATS STRIP
